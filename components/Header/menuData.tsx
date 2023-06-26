@@ -31,6 +31,18 @@ const menuData: Menu[] = [
     newTab: false,
   },
   {
+    id: 6,
+    title: "Achievment",
+    path: "/achievment",
+    newTab: false,
+  },
+  {
+    id: 7,
+    title: "Teams",
+    path: "/teams",
+    newTab: false,
+  },
+  {
     id: 4,
     title: "Pages",
     newTab: false,
