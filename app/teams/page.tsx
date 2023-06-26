@@ -26,7 +26,7 @@ const CardItem = ({ data }) => {
   );
 };
 
-const Card = () => {
+const TeamPage = () => {
   return (
     <div className='flex-col pt-[120px] pb-[120px]'>
       <h1 className="text-center text-[40px] font-bold  mb-8">MEET THE TEAM</h1>
@@ -51,4 +51,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default TeamPage;
