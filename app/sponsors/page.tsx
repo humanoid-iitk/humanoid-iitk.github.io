@@ -29,7 +29,7 @@ const SponsorPage = () => {
       <section id="about" className="pt-16 md:pt-20 lg:pt-28">
         <div className="container">
        <center> <SectionTitle title="Previous Sponsors" paragraph="Below are our previous sponsors" mb="10px"/></center>
-            <div className="flex flex-row flex-wrap content-center justify-center items-center">
+            <div className="flex ranimate flex-row flex-wrap content-center justify-center items-center">
             {sponsorList.map((item, index) => (
             <div  style={{ height: '220px',margin:'20px',padding:'8px', display: 'flex', flexDirection: 'column', flexWrap: 'nowrap', alignContent: 'center', justifyContent: 'center', alignItems: 'center' }} key={index}>
                 <Image style={{height:'100px',padding:'8px'}} className="object-contain rounded shadow mx-auto" src={item.img} alt={item.title} width={300} height={300}/>
