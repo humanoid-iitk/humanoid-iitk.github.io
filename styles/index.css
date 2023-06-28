@@ -41,7 +41,6 @@ body{
   animation-name: rotation;
   animation-duration: 9s;
   animation-iteration-count: infinite;
-  animation-timing-function: ;
 }
 
 @keyframes rotation {
