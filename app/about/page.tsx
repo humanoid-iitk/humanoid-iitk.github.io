@@ -7,7 +7,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Introducing Our Team's Target and Motivation: Building a Bright Future Together"
       />
       <AboutSectionOne />
       <AboutSectionTwo />
