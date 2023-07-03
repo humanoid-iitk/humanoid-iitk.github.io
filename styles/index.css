@@ -31,3 +31,25 @@
     @apply opacity-100;
   }
 }
+
+body{
+  overflow: hidden;
+}
+
+
+.ranimate{
+  animation-name: rotation;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: translateX(-100%);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(100%);
+    animation-timing-function: ease-out;
+  }
+}
