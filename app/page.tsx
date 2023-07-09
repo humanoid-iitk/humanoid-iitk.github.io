@@ -6,6 +6,7 @@ import Achievement from "./achievment/page";
 import Humanoid from "./humanoids/page";
 import SponsorPage from "./sponsors/page";
 import TeamPage from "./teams/page";
+import AboutPage from "./about/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,6 +15,7 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
+      <AboutPage/>
       <Achievement/>
       <Humanoid />
       <SponsorPage/>
