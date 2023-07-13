@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef,useState, forwardRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@/public/browser";
 import NewsLatterBox from "./NewsLatterBox";
 import dotenv from 'dotenv';
 import News from "./News";
@@ -10,7 +10,7 @@ import News from "./News";
 const Contact = () => {
 
  
-  const form = useRef(null);
+  const form = useRef<HTMLFormElement>(null);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -20,6 +20,7 @@ const Contact = () => {
           console.log(result.text);
           console.log("message sent");
           alert("Form submitted successfully!");
+          if(form.current)
           form.current.reset();
 
       }, (error) => {
