@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef,useState } from "react";
+import React, { useRef,useState, forwardRef } from "react";
 import emailjs from '@emailjs/browser';
 import NewsLatterBox from "./NewsLatterBox";
 import dotenv from 'dotenv';
@@ -10,8 +10,6 @@ import News from "./News";
 const Contact = () => {
 
  
-
-  
   const form = useRef(null);
 
   const sendEmail = (e) => {
