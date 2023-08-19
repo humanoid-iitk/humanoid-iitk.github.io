@@ -22,11 +22,9 @@ const Contact = () => {
           alert("Form submitted successfully!");
           if(form.current)
           form.current.reset();
-
       }, (error) => {
           console.log(error.text);
           alert("An error occured");
-
       });
   };
 
